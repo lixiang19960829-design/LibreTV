@@ -34,6 +34,12 @@ const API_SITES = {
         name: '量子资源',
         adult: false
     },
+    // 光速资源 (新增，速度极快)
+    gszy: {
+        api: 'https://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8/at/json',
+        name: '光速资源',
+        adult: false
+    },
     // 索尼资源 (备用)
     snzy: {
         api: 'https://suoniapi.com/api.php/provide/vod/from/snm3u8/at/json',
