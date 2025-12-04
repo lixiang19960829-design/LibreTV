@@ -22,12 +22,30 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
-        adult: true
+    // 非凡资源 (推荐，资源全)
+    ffzy: {
+        api: 'https://cj.ffzyapi.com/api.php/provide/vod/from/ffm3u8/at/json',
+        name: '非凡资源',
+        adult: false
+    },
+    // 量子资源 (速度快)
+    lzzy: {
+        api: 'https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/at/json',
+        name: '量子资源',
+        adult: false
+    },
+    // 索尼资源 (备用)
+    snzy: {
+        api: 'https://suoniapi.com/api.php/provide/vod/from/snm3u8/at/json',
+        name: '索尼资源',
+        adult: false
+    },
+    // 天空资源 (动漫综艺多)
+    tkzy: {
+        api: 'https://api.tiankongapi.com/api.php/provide/vod/from/tkm3u8/at/json',
+        name: '天空资源',
+        adult: false
     }
-    //ARCHIVE https://telegra.ph/APIs-08-12
 };
 
 // 定义合并方法
